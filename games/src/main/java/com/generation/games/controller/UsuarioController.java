@@ -19,6 +19,9 @@ import com.generation.games.model.UsuarioLogin;
 import com.generation.games.repository.UsuarioRepository;
 import com.generation.games.service.UsuarioService;
 
+@RestController
+@RequestMapping("/usuarios")
+@CrossOrigin(origins = "", allowedHeaders = "")
 public class UsuarioController {
 	
 	@Autowired
