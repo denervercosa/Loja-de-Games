@@ -13,6 +13,7 @@ import com.generation.games.model.Usuario;
 import com.generation.games.model.UsuarioLogin;
 import com.generation.games.repository.UsuarioRepository;
 
+@Service
 public class UsuarioService {
 	
 	@Autowired
